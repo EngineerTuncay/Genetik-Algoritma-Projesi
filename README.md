@@ -1,2 +1,2 @@
-# Matlab_Genetic_Algorithm
- Sample of Genetic Algortihm by Matlab Guide
+# MAtlab Genetik Algoritma
+ Merhabalar, matlab guide ayarüzü kullanılarak genetik algoritması kodlanmıştır.
