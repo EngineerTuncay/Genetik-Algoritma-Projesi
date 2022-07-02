@@ -5,7 +5,20 @@
 
 Program bir yol haritasının import edilmesi, başlangıç popülasyon sayısının, çaprazlama ve mutasyon oranının belirlenmesi ve arama algortimasının sonlandırılması için gereken minumum 1 şartın yerine getirilmesi ile çalıştırılmaktadır.
 
-![Yol Bilgisi Alma](https://user-images.githubusercontent.com/82308015/176989971-bcc12de1-6571-4075-89b9-224794c317c9.png)
+![Yol Bilgisi Alma](https://user-images.githubusercontent.com/82308015/176990472-d1a6ba33-a7ae-4c26-97f2-52f44bc99d09.png)
 
-"Yol Bilgisi Al" butonuna tıklanarak excel'de yer alan nokta veya şehirlre arası bilgi programa alınır.
+"Yol Bilgisi Al" butonuna tıklanarak excel'de yer alan nokta veya şehirler arası bilgi programa alınır.
 
+![Setup](https://user-images.githubusercontent.com/82308015/176990038-fe74731b-a70f-4a83-a10b-fe0a9f6ca384.png)
+
+Araştırma konunuza bağlı olarak "Başlangıç Popülasyon" sayısı programa giriş yapılır, genellikle 50 adet üye tercih edilir.
+Çaprazlaam oranı %70 ve mutasyon oranı ise %5 tercih edilir. Bu değerler araştırma konunuza bağlı olarak değişkenlik gösterir, farklı değerler tercih edebilirsiniz.
+
+![Bitirme Ayarları](https://user-images.githubusercontent.com/82308015/176990121-8a5809c5-9aba-40c4-9f3b-c21a0878197b.png)
+
+Arama çalışmanın elbette bir sınırı vardır, genetik algoritmada ise aramanın durdurulması iterasyon sayısı, uygun değerin elde eilmesi, arama süresi ile gerçekleştirilmektedir.
+
+Araç rotalam probleminde sizin için gerekli minumum mesafe değerini girer ve ilgili CheckBox'ı işaretlemeniz durumunda genetik algoritma ilgili değer altında bir sonuç bulması durumunda aramayı durdurur.
+
+Arama süresi ise sizin belirleyeceğiniz limit içinde yapılır. Süreyi aktifleştirmek için CheckBox işaretlenir ve sizin için uygun olan süre dakika cinsinden sisteme girilir.
+Örneğin genetik algoritmanın kargo firması için en iyi rotayı hesapladığını fakat günlerce hesaplama yaptığını düşünün ne kadar mantıklı olur ? Bu sebeple uygun sürede uygun mesafe bilgisini elde etmekte oldukça önemlidir.
