@@ -285,7 +285,7 @@ Yol(:,2:size(Yol,2)+1) = Yol(:,:); %1. Sütunlar 2. Sütunların yerine kaydır�
 Yol(:,1) = 1; %1. Satır ve tüm sütunlara 1 ekleniyor
 Yol(:,size(Yol,2)+1) = 1; %Son sütunların tümüne 1 ekleniyor.
 
-while ( BMinIt && ( Iterasyon <= MaxIterasyon ) ) || ( BMesafe && ( MinYol <= BestYol ) ) || ( BSure && ( Time <= MinSure ) )
+while ( BMinIt && ( Iterasyon <= MaxIterasyon ) ) || ( BMesafe && ( MinYol <= BestYol ) ) || ( BSure && ( Time < MinSure ) )
 
     Iterasyon = Iterasyon + 1;
     
@@ -482,17 +482,19 @@ while ( BMinIt && ( Iterasyon <= MaxIterasyon ) ) || ( BMesafe && ( MinYol <= Be
         
     pause(0.00000001);
     
-    Dizi(Iterasyon) = fix(BestYol/6);
+    %Dizi(Iterasyon) = fix(BestYol/6);
+    Dizi(Iterasyon) = BestYol;
     plot(Dizi);
     
     set(handles.edit7,'String',num2str(Iterasyon));
-    set(handles.edit8,'String',num2str(fix(BestYol/6)));
-    set(handles.edit9,'String',num2str(Time))
+    set(handles.edit8,'String',num2str(fix(BestYol)));
     
     T2 = datetime('now');
     M2 = minute(T2);
     
     Time =(M2-M1);
+    
+    set(handles.edit9,'String',num2str(Time))
     
 end %While döngüsü sonu
 
