@@ -22,3 +22,11 @@ Araç rotalam probleminde sizin için gerekli minumum mesafe değerini girer ve 
 
 Arama süresi ise sizin belirleyeceğiniz limit içinde yapılır. Süreyi aktifleştirmek için CheckBox işaretlenir ve sizin için uygun olan süre dakika cinsinden sisteme girilir.
 Örneğin genetik algoritmanın kargo firması için en iyi rotayı hesapladığını fakat günlerce hesaplama yaptığını düşünün ne kadar mantıklı olur ? Bu sebeple uygun sürede uygun mesafe bilgisini elde etmekte oldukça önemlidir.
+
+![Çift Şartlı](https://user-images.githubusercontent.com/82308015/176990696-ab7a07cd-e7e9-4dd2-8a11-0a0e1aa2d7ea.png)
+
+Bir arama çalışması yapalım fakat çift şartlı olsun. Yukarıdaki görselden görülmekte olduğu gibi hem minumum iterasyon hem de minumum mesafe bilgisi arama algoritmasının durdurulması için gerekli şartlar olarak girilmiştir.
+
+![Sonuç](https://user-images.githubusercontent.com/82308015/176990773-ea278f24-1ab7-43b0-82c8-b7f3373f1a11.png)
+
+Arama algortiması tek bir şartı yerine getirene kadar değil her iki şartı da yerine getirene kadar aramasını yapmış ve iki şartıda sağlaması durumunda döngüyü durdurarak sonuçları ekranda görüntülemiştir.
