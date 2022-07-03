@@ -30,3 +30,7 @@ Bir arama çalışması yapalım fakat çift şartlı olsun. Yukarıdaki görsel
 ![Sonuç](https://user-images.githubusercontent.com/82308015/176990773-ea278f24-1ab7-43b0-82c8-b7f3373f1a11.png)
 
 Arama algortiması tek bir şartı yerine getirene kadar değil her iki şartı da yerine getirene kadar aramasını yapmış ve iki şartıda sağlaması durumunda döngüyü durdurarak sonuçları ekranda görüntülemiştir.
+
+# Matlab projenizi uygun bir maliyete yaptırmak için;
+# Wp: +90 542 667 08 99
+# Email: tuncayuslu1997@gmail.com
